@@ -40,7 +40,8 @@ namespace EmployeePolymorphism
             Console.WriteLine();
             Console.WriteLine("PAYMENTS: ");
 
-            foreach(Employee emp in listEmployee){
+            foreach (Employee emp in listEmployee)
+            {
                 Console.WriteLine(emp.Name + " - $ " + emp.Payment().ToString("F2", CultureInfo.InvariantCulture));
             }
         }
